@@ -1,0 +1,243 @@
+.banner {
+    width: 1280px; 
+	height: 900px;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 1px solid #ccc; 
+	background-image: url(i/anim_block.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+    }
+	
+    .red {
+    width: 400px; 
+	height: 200px;
+	background-image: url(i/sglt2.png);
+    background-size: 84% auto;
+    background-repeat: no-repeat;	
+	position: absolute;
+	left: 130px;
+	top: 240px;
+	animation: red ease-in-out 15s infinite;
+	-webkit-animation: red ease-in-out 15s infinite;
+    }
+    @keyframes red {
+    0% {opacity: 1;}
+	17%{opacity: 1;}
+    18%{opacity: 0;}
+    100%{opacity: 0;}
+    }
+	@-webkit-keyframes red {
+    0% {opacity: 1;}
+	17%{opacity: 1;}
+    18%{opacity: 0;}
+    100%{opacity: 0;}
+    }
+	
+    .black {
+    width: 400px; 
+	height: 200px;
+	background-image: url(i/sglt.png);
+    background-size: 84% auto;
+    background-repeat: no-repeat;	
+	position: absolute;
+	left: 130px;
+	top: 240px;
+	animation: black ease-in-out 15s infinite;
+    }
+    @keyframes black {
+    0% {opacity: 0;}
+    17%{opacity: 0;}
+    18%{opacity: 1;}
+    100%{opacity: 1;}
+    }
+	@-webkit-keyframes black {
+    0% {opacity: 0;}
+    17%{opacity: 0;}
+    18%{opacity: 1;}
+    100%{opacity: 1;}
+    }
+	
+    .sugar {
+    width: 900px; 
+	height: 700px;
+	background-image: url(i/sugar.png);    
+    background-repeat: no-repeat;		
+	animation: sugar ease-in-out 15s infinite;
+	-webkit-animation: sugar ease-in-out 15s infinite;
+    }
+	
+    @keyframes sugar {
+     0% {opacity: 0; }
+    19% {opacity: 0;}
+    20%{opacity: 1; background-position: 50px 170px;}
+    51%{opacity: 1; background-position: 50px 170px;;}
+    62%{opacity: 1; background-position: 770px; 920px;}
+	100%{opacity: 1; background-position: 770px; 920px;}
+    }
+	@-webkit-keyframes sugar {
+    0% {opacity: 0; }
+    19% {opacity: 0;}
+    20%{opacity: 1; background-position: 50px 170px;}
+    51%{opacity: 1; background-position: 50px 170px;;}
+    62%{opacity: 1; background-position: 770px; 920px;}
+	100%{opacity: 1; background-position: 770px; 920px;}
+    }
+	
+	
+    .na {
+    width: 400px; 
+	height: 200px;
+	background-image: url(i/txt-netNa.png);
+    background-size: 38% auto;
+    background-repeat: no-repeat;	
+	position: absolute;
+	left: 25px;
+	top: 400px;
+	animation: na  ease-in-out 15s infinite;
+	-webkit-animation: na  ease-in-out 15s infinite;
+    }
+    @keyframes na {
+    0% {opacity: 0; }
+    35% {opacity: 0;}   
+    36% {opacity: 1;}
+    50% {opacity: 0; }
+	100% {opacity: 0;}
+    }
+	@-webkit-keyframes na {
+    0% {opacity: 0; }
+    35% {opacity: 0;}   
+    36% {opacity: 1;}
+    50% {opacity: 0; }
+	100% {opacity: 0;}
+    }
+	
+    .text {
+    width: 600px; 
+	height: 200px;
+	background-image: url(i/vn.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;	
+	position: absolute;
+	left: 300px;
+	top: 24px;	
+    }
+   
+    .text1 {
+    width: 200px; 
+	height: 100px;
+	background-image: url(i/pk.png);
+    background-size: 60% auto;
+    background-repeat: no-repeat;	
+	position: absolute;
+	left: 50px;
+	top: 624px;	
+    }
+   
+   .text2 {
+    width: 200px; 
+	height: 100px;
+	background-image: url(i/ip.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;	
+	position: absolute;
+	left: 1050px;
+	top: 624px;	
+    }
+	
+    .text3 {
+    width: 300px; 
+	height: 300px;
+	background-image: url(i/ATF.png);
+    background-size: 80% auto;
+    background-repeat: no-repeat;	
+	position: absolute;
+	left: 895px;
+	top: 420px;
+	}
+   
+    
+	.red2 {
+    width: 400px; 
+	height: 200px;
+	background-image: url(i/glut.png);
+    background-size: 60% auto;
+    background-repeat: no-repeat;	
+	position: absolute;
+	left: 917px;
+	top: 120px;
+	animation: red2 ease-in-out 15s infinite;
+	-webkit-animation: red2 ease-in-out 15s infinite;
+    }
+    @keyframes red2 {
+     0% {opacity: 1;}
+    60%{opacity: 1;}
+    61%{opacity: 0;}
+    75%{opacity: 0;}
+    85%{opacity: 1;}
+    100%{opacity: 1;}
+    }
+    @-webkit-keyframes red2 {
+    0% {opacity: 1;}
+    60%{opacity: 1;}
+    61%{opacity: 0;}
+    75%{opacity: 0;}
+    85%{opacity: 1;}
+    100%{opacity: 1;}
+    }
+	
+    .black2 {
+    width: 400px; 
+	height: 200px;
+	background-image: url(i/glut2.png);
+    background-size: 60% auto;
+    background-repeat: no-repeat;	
+	position: absolute;
+	left: 917px;
+	top: 120px;
+	animation: black2 ease-in-out 15s infinite;
+	-webkit-animation: black2 ease-in-out 15s infinite;
+    }
+    @keyframes black2 {
+  	0% {opacity: 0;}
+    60%{opacity: 0;}
+    61%{opacity: 1;}
+    75%{opacity: 1;}
+    85%{opacity: 0;}
+    100%{opacity: 0;}
+    }
+	@-webkit-keyframes black2 {
+  	0% {opacity: 0;}
+    60%{opacity: 0;}
+    61%{opacity: 1;}
+    75%{opacity: 1;}
+    85%{opacity: 0;}
+    100%{opacity: 0;}
+    }
+	
+    .sugars {
+    width: 900px; 
+	height: 700px;
+	background-image: url(i/sugars.png);
+    background-size: 41% auto;
+    background-repeat: no-repeat;
+	position: absolute;
+	left: 407px;
+	top: 160px;
+	animation: sugars ease-in-out 15s infinite;
+	-webkit-animation: sugars ease-in-out 15s infinite;
+    }
+	
+    @keyframes sugars {
+  	0% {opacity: 0;}
+    90%{opacity: 0;}
+    91%{opacity: 1;}
+    100%{opacity: 1;}
+    }
+	@-webkit-keyframes sugars {
+  	0% {opacity: 0;}
+    90%{opacity: 0;}
+    91%{opacity: 1;}
+    100%{opacity: 1;}
+    }

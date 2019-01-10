@@ -1,0 +1,50 @@
+.banner {
+    width: 1280px; 
+	height: 700px;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 1px solid #ccc; 
+    
+   }
+   .red {
+    width: 1280px; 
+	height: 700px;    
+	border: 1px solid #ccc;
+    background-image: url(i/K.png);
+    background-size: 4.6% auto;
+    background-repeat: no-repeat;	
+	animation: red ease-in-out 7s infinite;
+	-webkit-animation: red ease-in-out 7s infinite;
+	}
+	
+   @keyframes red {
+   0% {background-position: 0px 645px;}
+   10% {background-position: 108px 450px;}
+   20% {background-position: 236px 645px;}
+   30% {background-position: 354px 450px;}
+   40% {background-position: 492px 450px;}
+   50% {background-position: 620px 50px;}
+   60% {background-position: 748px 450px;}
+   70% {background-position: 856px 450px;}
+   80% {background-position: 968px 645px;}
+   90% {background-position: 1079px 450px;}
+   95% {background-position: 1190px 645px;}
+   100% {background-position: 1304px 450px;}
+   
+   }
+   @-webkit-keyframes red {
+   0% {background-position: 0px 645px;}
+   10% {background-position: 108px 450px;}
+   20% {background-position: 236px 645px;}
+   30% {background-position: 354px 450px;}
+   40% {background-position: 492px 450px;}
+   50% {background-position: 620px 50px;}
+   60% {background-position: 748px 450px;}
+   70% {background-position: 856px 450px;}
+   80% {background-position: 968px 645px;}
+   90% {background-position: 1079px 450px;}
+   95% {background-position: 1190px 645px;}
+   100% {background-position: 1304px 450px;}
+   
+   }
+   
